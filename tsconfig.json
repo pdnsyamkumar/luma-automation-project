@@ -108,7 +108,10 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+    }
   },
   "include": ["src/**/*"], // Include all files in the "src" directory
   "exclude": ["node_modules", "dist"] // Exclude common directories
