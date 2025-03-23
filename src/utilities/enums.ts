@@ -5,3 +5,12 @@ export enum Label {
     LAST_NAME = 'Last Name',
     CONFIRM_PASSWORD = 'Confirm Password',
 }
+
+export enum NavigationMethod {
+    UI,
+    DEEP_LINK
+}
+
+export enum DeepLink {
+    createAnAccount = `/customer/account/create/`,
+}
